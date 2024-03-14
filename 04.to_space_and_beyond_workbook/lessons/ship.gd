@@ -1,6 +1,6 @@
 extends Sprite2D
 
-var velocity := Vector2(500, 0)
+var velocity := Vector2(500, 250)
 
 func _process(delta: float) -> void:
 	position += velocity * delta
