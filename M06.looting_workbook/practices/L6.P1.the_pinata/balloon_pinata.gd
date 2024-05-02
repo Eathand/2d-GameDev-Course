@@ -29,5 +29,5 @@ func spawn_candy() -> void:
 		
 		const CANDY_PACKED_SCENE := preload("candy/candy.tscn")
 		var candy: Node2D = CANDY_PACKED_SCENE.instantiate()  
-		add_child(candy)  #
+		add_child(candy)  
 		candy.position = random_position  
